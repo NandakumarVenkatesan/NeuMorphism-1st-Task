@@ -1,0 +1,335 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #ececec;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #202035;
+}
+
+form {
+    width: 250px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 50%;
+    box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.55),
+        10px 10px 15px rgba(70, 70, 70, 0.12);
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+.text {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    font-size: 14px;
+    color: #007F53;
+    position: relative;
+    left: -15px;
+}
+
+.dot-1 {
+    height: 35px;
+    width: 35px;
+    background-color: #F0F0F3;
+    box-shadow: 5px 5px 10px #AEAEC0,
+        -5px -5px 10px #FFFFFF;
+    border-radius: 50%;
+    position: relative;
+    left: 100px;
+}
+
+.dot-2 {
+    height: 35px;
+    width: 35px;
+    background-color: #F0F0F3;
+    box-shadow: 5px 5px 10px #AEAEC0,
+        -5px -5px 10px #FFFFFF;
+    border-radius: 50%;
+}
+
+
+.dotHolder {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    min-height: 40px;
+    margin-bottom: 5%;
+}
+
+.dot {
+    height: 35px;
+    width: 35px;
+    background-color: #F0F0F3;
+    box-shadow: 5px 5px 10px #AEAEC0,
+        -5px -5px 10px #FFFFFF;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+
+.dot:active{
+    box-shadow:
+        5px 5px 10px #AEAEC0,
+        -5px -5px 10px #FFFFFF,
+        inset 0 0 10px #AEAEC0,
+        inset 0 0 10px #FFFFFF;
+}
+
+.dot:focus{
+    box-shadow:
+        5px 5px 10px #AEAEC0,
+        -5px -5px 10px #FFFFFF,
+        inset 0 0 10px #AEAEC0,
+        inset 0 0 10px #FFFFFF;
+}
+
+.dot-1 {
+    height: 35px;
+    width: 35px;
+    background-color: #F0F0F3;
+    box-shadow: 5px 5px 10px #AEAEC0,
+        -5px -5px 10px #FFFFFF;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+
+.dot-1:active{
+    box-shadow:
+        5px 5px 10px #AEAEC0,
+        -5px -5px 10px #FFFFFF,
+        inset 0 0 10px #AEAEC0,
+        inset 0 0 10px #FFFFFF;
+}
+
+.dot-1:focus{
+    box-shadow:
+        5px 5px 10px #AEAEC0,
+        -5px -5px 10px #FFFFFF,
+        inset 0 0 10px #AEAEC0,
+        inset 0 0 10px #FFFFFF;
+}
+
+.dot-2 {
+    height: 35px;
+    width: 35px;
+    background-color: #F0F0F3;
+    box-shadow: 5px 5px 10px #AEAEC0,
+        -5px -5px 10px #FFFFFF;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+
+.dot-2:active{
+    box-shadow:
+        5px 5px 10px #AEAEC0,
+        -5px -5px 10px #FFFFFF,
+        inset 0 0 10px #AEAEC0,
+        inset 0 0 10px #FFFFFF;
+}
+
+.dot-2:focus{
+    box-shadow:
+        5px 5px 10px #AEAEC0,
+        -5px -5px 10px #FFFFFF,
+        inset 0 0 10px #AEAEC0,
+        inset 0 0 10px #FFFFFF;
+}
+
+.bottom {
+    align-items: flex-start;
+}
+
+#icon-align {
+    font-size: 1rem;
+    margin-left: 0.7rem;
+    color: #9e9898;
+    margin-top: 10px;
+}
+
+.neumorphism-toggle>input[type=checkbox].neu {
+    position: relative;
+    -webkit-appearance: none;
+    width: 245px;
+    height: 120px;
+    background-color: #F0F0F3;
+    box-shadow:
+        5px 5px 10px #AEAEC0,
+        -5px -5px 10px #FFFFFF,
+        inset 0 0 10px #AEAEC0,
+        inset 0 0 10px #FFFFFF;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.neumorphism-toggle>input[type=checkbox].neu:checked {
+    box-shadow:
+        0 0 10px #AEAEC0,
+        0 0 10px #FFFFFF,
+        inset 5px 5px 10px #AEAEC0,
+        inset -5px -5px 10px #FFFFFF;
+}
+
+.btn>button[type=button].green-btn {
+    margin-top: 5%;
+    -webkit-appearance: none;
+    border: none;
+    position: relative;
+    height: 40px;
+    width: 100px;
+    background-color: #007F53;
+    box-shadow:
+        5px 5px 10px #AEAEC0,
+        -5px -5px 10px #FFFFFF;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.btn>button[type=button].green-btn:active {
+    box-shadow:
+        5px 5px 10px #FFFFFF,
+        -5px -5px 10px #AEAEC0,
+        inset 0px 0px 5px #FFFFFF,
+        inset 0px 0px 5px #AEAEC0;
+}
+
+.btn>button[type=button].green-btn:focus {
+    box-shadow:
+        5px 5px 10px #FFFFFF,
+        -5px -5px 10px #AEAEC0,
+        inset 0px 0px 5px #FFFFFF,
+        inset 0px 0px 5px #AEAEC0;
+}
+
+.btn>button[type=button].shadow-btn {
+    margin-top: 5%;
+    -webkit-appearance: none;
+    border: none;
+    position: relative;
+    height: 40px;
+    width: 100px;
+    background-color: #F0F0F3;
+    box-shadow:
+        5px 5px 10px #AEAEC0,
+        -5px -5px 10px #FFFFFF;
+
+    margin-left: 5%;
+    border-radius: 30px;
+    color: #9e9898;
+    cursor: pointer;
+}
+
+.btn>button[type=button].shadow-btn:active {
+    box-shadow:
+        5px 5px 10px #AEAEC0,
+        -5px -5px 10px #FFFFFF,
+        inset 5px 5px 10px #AEAEC0,
+        inset -5px -5px 10px #FFFFFF;
+}
+
+.btn>button[type=button].shadow-btn:focus {
+    box-shadow:
+        5px 5px 10px #AEAEC0,
+        -5px -5px 10px #FFFFFF,
+        inset 5px 5px 10px #AEAEC0,
+        inset -5px -5px 10px #FFFFFF;
+}
+
+.neumorphism-toggles {
+    margin-top: 10%;
+    position: relative;
+    -webkit-appearance: none;
+    width: 245px;
+    height: auto;
+    background-color: #F0F0F3;
+    box-shadow:
+        5px 5px 10px #AEAEC0,
+        -5px -5px 10px #FFFFFF;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.neumorphism-toggles>input[type=checkbox].neumorphism {
+    position: relative;
+    -webkit-appearance: none;
+    width: 70px;
+    height: 70px;
+    background-color: #F0F0F3;
+    box-shadow:
+        5px 5px 10px #AEAEC0,
+        -5px -5px 10px #FFFFFF;
+    ;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.neumorphism-toggles>input[type=checkbox].neumorphism:checked {
+    box-shadow:
+        5px 5px 10px #AEAEC0,
+        -5px -5px 10px #FFFFFF,
+        inset 5px 5px 10px #AEAEC0,
+        inset -5px -5px 10px #FFFFFF;
+}
+
+.neumorphism-toggles > input[type=checkbox].neumorphism::before {
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 500;
+	font-size: 1rem;
+	color: rgba(0,0,0,.1);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	transition: all .3s ease-in-out;
+}
+.neumorphism-toggles > input[type=checkbox].neumorphism:checked::before {
+	color:#007F53;
+}
+.neumorphism-toggles > input[type=checkbox].neumorphism.fa-clock::before {
+	color:#007F53;
+}
+.neumorphism-toggles > input[type=checkbox].neumorphism.fa-bell::before {
+	color:#007F53;
+}
+.neumorphism-toggles > input[type=checkbox].neumorphism.fa-lightbulb::before {
+	color:#007F53;
+}
+.neumorphism-toggles > input[type=checkbox].neumorphism.fa-clock::before {
+	color:#007F53;
+}
+.neumorphism-toggles > input[type=checkbox].neumorphism.fa-bell::before {
+	color:#007F53;
+}
+.neumorphism-toggles > input[type=checkbox].neumorphism.fa-lightbulb::before {
+	color:#007F53;
+}
+.neumorphism-toggles > input[type=checkbox].neumorphism.fa-lightbulb::before {
+	color:#007F53;
+}
+.neumorphism-toggles > input[type=checkbox].neumorphism.fa-bell::before {
+	color:#007F53;
+}
+.neumorphism-toggles > input[type=checkbox].neumorphism.fa-clock::before {
+	color:#007F53;
+}
+.neumorphism-toggles > input[type=checkbox].neumorphism.fa-clock::before {
+	color:#007F53;
+}
+.neumorphism-toggles > input[type=checkbox].neumorphism.fa-bell::before {
+	color:#007F53;
+}
+.neumorphism-toggles > input[type=checkbox].neumorphism.fa-lightbulb::before {
+	color:#007F53;
+}
